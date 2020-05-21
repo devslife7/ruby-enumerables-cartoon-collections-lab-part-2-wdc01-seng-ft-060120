@@ -37,4 +37,5 @@ def find_valid_calls(planeteer_calls)
     valid_calls.any? do |vcalls|
       vcalls == calls
     end
+  end
 end
