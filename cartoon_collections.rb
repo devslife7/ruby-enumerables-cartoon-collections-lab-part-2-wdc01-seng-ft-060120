@@ -25,7 +25,7 @@ def long_planeteer_calls(planeteer_calls)
   resut = false
   
   planeteer_calls.each do |element|
-    if element > 4
+    if element.length > 4
       result = true
       return result
     end
